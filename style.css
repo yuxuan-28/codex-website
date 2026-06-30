@@ -1,7 +1,7 @@
 :root {
-  --bg: #f4f1eb;
-  --surface: rgba(255, 255, 255, 0.88);
-  --surface-strong: #ffffff;
+  --bg: #dbeafe;
+  --surface: rgba(255, 255, 255, 0.9);
+  --surface-strong: #f8fbff;
   --text: #1f2933;
   --muted: #52606d;
   --line: rgba(31, 41, 51, 0.12);
@@ -30,8 +30,8 @@ body {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   line-height: 1.65;
   background:
-    radial-gradient(circle at top left, rgba(47, 93, 98, 0.14), transparent 28%),
-    linear-gradient(180deg, #faf8f4 0%, var(--bg) 100%);
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.2), transparent 28%),
+    linear-gradient(180deg, #eff6ff 0%, var(--bg) 100%);
 }
 
 a {
@@ -60,7 +60,7 @@ img {
   top: 0;
   z-index: 50;
   backdrop-filter: blur(16px);
-  background: rgba(250, 248, 244, 0.8);
+  background: rgba(239, 246, 255, 0.82);
   border-bottom: 1px solid rgba(31, 41, 51, 0.08);
 }
 
